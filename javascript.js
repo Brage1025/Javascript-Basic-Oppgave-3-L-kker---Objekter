@@ -270,6 +270,7 @@ console.log(
   doubleSwap("The zebra ate the zoo. The zoo had to close.", "z", "o")
 );
 //Her forventer eg: "I wonder if Di||cord would cen||or ||ome of thi|| if you copy-pa||ted thi||."
+
 console.log(
   doubleSwap(
     "I wonder if Discord would censor some of this if you copy-pasted this.",
