@@ -265,13 +265,9 @@ function doubleSwap(string, charA, charB) {
 
 //Her skriver eg ut i konsollen for å sjå at funskjonen byttar ut dei forventa parameterane.
 
-//Her forventer eg: "Digimon is the best! Pokémon don't stand a chance!""
+//Her forventer eg: "The oebra ate the ozz. The ozz had tz clzse."
 console.log(
-  doubleSwap(
-    "Digimon is the best! Pokémon don't stand a chance!",
-    "Digimon",
-    "Pokémon"
-  )
+  doubleSwap("The zebra ate the zoo. The zoo had to close.", "z", "o")
 );
 //Her forventer eg: "I wonder if Di||cord would cen||or ||ome of thi|| if you copy-pa||ted thi||."
 console.log(
