@@ -115,7 +115,7 @@ for (let i = 0; i < people.length; i++) {
   combinedAge += people[i].age;
 }
 
-// Regner ut gjennomsnittsalderen men ekskluderer Otto
+// Regner ut gjennomsnittsalderen men ekskluderer Otto fordi han blir ignorert over men er fremdeles ein del av array lengthen. difor fjerner me -1 frå der
 averageAge = combinedAge / (people.length - 1);
 
 //Ser om oppdaterte people-arrayet har med alle endringer
